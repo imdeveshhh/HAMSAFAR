@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 20% 96%;
+    --foreground: 25 15% 15%;
+    --card: 45 25% 94%;
+    --card-foreground: 25 15% 15%;
+    --popover: 45 25% 94%;
+    --popover-foreground: 25 15% 15%;
+    --primary: 25 85% 65%;
+    --primary-foreground: 45 20% 96%;
+    --secondary: 180 25% 75%;
+    --secondary-foreground: 25 15% 15%;
+    --muted: 45 15% 88%;
+    --muted-foreground: 25 10% 45%;
+    --accent: 15 75% 80%;
+    --accent-foreground: 25 15% 15%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 45 20% 96%;
+    --border: 45 15% 85%;
+    --input: 45 15% 85%;
+    --ring: 25 85% 65%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer components {
+  .retro-card {
+    @apply bg-gradient-to-br from-orange-100 via-amber-50 to-orange-200 border-2 border-orange-300 shadow-lg;
+  }
+
+  .retro-button {
+    @apply bg-gradient-to-r from-orange-400 to-red-400 hover:from-orange-500 hover:to-red-500 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+
+  .vintage-text {
+    @apply font-cinzel text-orange-800;
+  }
+
+  .postcard-border {
+    @apply border-4 border-double border-orange-300 bg-gradient-to-br from-amber-50 to-orange-100;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 1s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Custom animations for travel loading */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.perspective {
+  perspective: 1000px;
+}
+
+.card-3d {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-3d:hover {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Travel-themed loading animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes travel-bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-travel-bounce {
+  animation: travel-bounce 2s infinite;
+}
+

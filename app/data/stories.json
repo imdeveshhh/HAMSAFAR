@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "slug": "maldives-bliss",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "tags": ["DESTINATIONS", "ISLAND LIFE"],
+    "title": "Maldives Bliss: Overwater Bungalows & Crystal Lagoons",
+    "url": "/stories/maldives-bliss"
+  },
+  {
+    "id": 2,
+    "slug": "northern-japan",
+    "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1",
+    "tags": ["DESTINATIONS", "CULTURE"],
+    "title": "Northern Japan – A Journey Through Serenity & Tradition",
+    "url": "/stories/northern-japan"
+  },
+  {
+    "id": 3,
+    "slug": "santorini-sunsets",
+    "image": "https://images.unsplash.com/photo-1606813901421-d49bb95c4a2b",
+    "tags": ["DESTINATIONS", "ROMANTIC GETAWAYS"],
+    "title": "Sunsets in Santorini – Greece’s Most Romantic Island",
+    "url": "/stories/santorini-sunsets"
+  },
+  {
+    "id": 4,
+    "slug": "swiss-alps",
+    "image": "https://images.unsplash.com/photo-1563890190292-33ae17f8fd12",
+    "tags": ["MOUNTAIN ESCAPES"],
+    "title": "Swiss Alps Getaway – The Call of Snowy Peaks",
+    "url": "/stories/swiss-alps"
+  },
+  {
+    "id": 5,
+    "slug": "southeast-asia",
+    "image": "https://images.unsplash.com/photo-1526481280691-702fede18430",
+    "tags": ["DESTINATIONS"],
+    "title": "Southeast Asia & Beyond: Vietnam, Cambodia and Laos",
+    "url": "/stories/southeast-asia"
+  },
+  {
+    "id": 6,
+    "slug": "kenya-safari",
+    "image": "https://images.unsplash.com/photo-1590490360183-cdba0e391b80",
+    "tags": ["WILDLIFE"],
+    "title": "Into the Wild – Safari Adventures in Kenya",
+    "url": "/stories/kenya-safari"
+  },
+  {
+    "id": 7,
+    "slug": "rome-history",
+    "image": "https://images.unsplash.com/photo-1557682264-9671d7d46fc4",
+    "tags": ["CULTURE"],
+    "title": "Timeless Rome: A Walk Through Empires",
+    "url": "/stories/rome-history"
+  },
+  {
+    "id": 8,
+    "slug": "kyoto-food",
+    "image": "https://images.unsplash.com/photo-1576014132886-f8e5edcbd86e",
+    "tags": ["EPICUREAN", "ARTS"],
+    "title": "Sip & Savour: A Culinary Journey Through Kyoto",
+    "url": "/stories/kyoto-food"
+  },
+  {
+    "id": 9,
+    "slug": "east-coast-getaways",
+    "image": "https://images.unsplash.com/photo-1576402187878-4f18a2cfb527",
+    "tags": ["NATURE", "INSIDER TIPS"],
+    "title": "Week-Long Getaways from the East Coast of the USA",
+    "url": "/stories/east-coast-getaways"
+  },
+  {
+    "id": 10,
+    "slug": "patagonia-expedition",
+    "image": "https://images.unsplash.com/photo-1558981403-c5f9891a3a9c",
+    "tags": ["ADVENTURE", "DESTINATIONS"],
+    "title": "Patagonia’s Remote Beauty – Edge of the World Exploration",
+    "url": "/stories/patagonia-expedition"
+  },
+  {
+    "id": 11,
+    "slug": "bali-temples",
+    "image": "https://images.unsplash.com/photo-1585647341598-306c928b80f8",
+    "tags": ["SPIRITUAL", "ISLAND LIFE"],
+    "title": "Spiritual Awakening in Bali’s Ancient Temples",
+    "url": "/stories/bali-temples"
+  },
+  {
+    "id": 12,
+    "slug": "machu-picchu-trails",
+    "image": "https://images.unsplash.com/photo-1586907835000-79f032f5b313",
+    "tags": ["DESTINATIONS", "HERITAGE"],
+    "title": "Trekking the Andes: Mystical Routes to Machu Picchu",
+    "url": "/stories/machu-picchu-trails"
+  },
+  {
+    "id": 13,
+    "slug": "norway-fjords",
+    "image": "https://images.unsplash.com/photo-1517821099602-3caceff84df2",
+    "tags": ["RIVER & OCEAN CRUISES"],
+    "title": "Sailing Through Norway’s Magical Fjords",
+    "url": "/stories/norway-fjords"
+  },
+  {
+    "id": 14,
+    "slug": "dubai-skyline",
+    "image": "https://images.unsplash.com/photo-1616421982317-4a671a73058d",
+    "tags": ["CITY ESCAPES"],
+    "title": "Skyscraper Dreams: Exploring Dubai’s Future Skyline",
+    "url": "/stories/dubai-skyline"
+  },
+  {
+    "id": 15,
+    "slug": "new-zealand",
+    "image": "https://images.unsplash.com/photo-1591160690552-5bff1edb85df",
+    "tags": ["NATURE", "ADVENTURE"],
+    "title": "Nature’s Playground – New Zealand’s Breathtaking Trails",
+    "url": "/stories/new-zealand"
+  },
+  {
+    "id": 16,
+    "slug": "osaka-street-food",
+    "image": "https://images.unsplash.com/photo-1602511510798-7b5c7a75a0b3",
+    "tags": ["FOOD", "STREET LIFE"],
+    "title": "The Nation’s Kitchen – Osaka’s Vibrant Food Scene",
+    "url": "/stories/osaka-street-food"
+  },
+  {
+    "id": 17,
+    "slug": "croatia-coastline",
+    "image": "https://images.unsplash.com/photo-1601134467661-69aa76cf96a3",
+    "tags": ["DESTINATIONS", "COASTAL"],
+    "title": "Sailing Croatia’s Stunning Adriatic Coastline",
+    "url": "/stories/croatia-coastline"
+  },
+  {
+    "id": 18,
+    "slug": "iceland-adventure",
+    "image": "https://images.unsplash.com/photo-1582188451845-e5f6e395f913",
+    "tags": ["NATURE", "ICE & FIRE"],
+    "title": "Iceland’s Ice & Fire – Natural Wonders Unleashed",
+    "url": "/stories/iceland-adventure"
+  }
+]
